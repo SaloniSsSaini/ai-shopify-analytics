@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/v1/questions
+Content-Type: application/json
+
+{
+  "store_id": "dummy-store",
+  "question": "Which products are likely to go out of stock?"
+}
